@@ -1,0 +1,8 @@
+http://localhost:3000/
+http://localhost:3000/1.0.0/intro
+http://localhost:3000/1.0.0/category/smart_recruiting-guide
+http://localhost:3000/1.0.0/tutorial-basics/introduction
+http://localhost:3000/1.0.0/tutorial-basics/installation
+http://localhost:3000/1.0.0/tutorial-basics/system-requirements
+http://localhost:3000/1.0.0/tutorial-basics/deploy-your-site
+http://localhost:3000/1.0.0/tutorial-basics/congratulations
