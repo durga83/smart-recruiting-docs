@@ -65,12 +65,14 @@ const config = {
         src: 'img/logo.png',
       },
       items: [
+        {to: '/intro', label: 'Doc', position: 'left'},
         {
           type: 'localeDropdown',
           position: 'right',
         },
         {
           type: 'docsVersionDropdown',
+          position: 'right',
         },
         {
           href: 'https://github.com/bintybyte/smart-recruiting-docs',
@@ -85,19 +87,11 @@ const config = {
       style: 'dark',
       links: [
         {
-          title: 'Documentation',
+          title: 'Smart_Recruiting Guide',
           items: [
-            { label: 'Introduction', to: '/introduction' },
-            { label: 'System Requirements', to: '/system_requirements' },
-            { label: 'Installation', to: '/installation' },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            { label: 'Stack Overflow', href: 'https://stackoverflow.com/questions/tagged/smart-recruiting' },
-            { label: 'Discord', href: 'https://discord.gg/your-invite-link' },
-            { label: 'Twitter', href: 'https://twitter.com/bintybyte' },
+            { label: 'Introduction', to: 'tutorial-basics/introduction' },
+            { label: 'System Requirements', to: 'tutorial-basics/system-requirements' },
+            { label: 'Installation', to: 'tutorial-basics/installation' },
           ],
         },
         {
